@@ -1,0 +1,10 @@
+#quarkus:
+#  hibernate-orm:
+#    database:
+#      generation: drop-and-create
+#    log:
+#      sql: true
+#    scripts:
+#      generation: drop-and-create
+#      create-target: create.ddl
+#      drop-target: drop.ddl
